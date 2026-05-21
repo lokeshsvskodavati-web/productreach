@@ -1,0 +1,36 @@
+{
+  "name": "productreach-barcode-scanner",
+  "version": "1.0.0",
+  "description": "Mobile app to scan barcodes and get ingredient details, benefits, and side effects",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "react-native-camera": "^4.2.1",
+    "react-native-barcode-scanner-super": "^0.0.13",
+    "react-native-vector-icons": "^9.2.0",
+    "react-navigation": "^6.1.6",
+    "react-navigation-native": "^6.1.6",
+    "react-navigation-stack": "^6.3.16",
+    "@react-native-async-storage/async-storage": "^1.19.3",
+    "axios": "^1.6.2",
+    "react-native-permissions": "^3.9.8",
+    "react-native-gesture-handler": "^2.13.0",
+    "react-native-reanimated": "^3.3.0",
+    "react-native-screens": "^3.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "jest": "^29.6.0",
+    "babel-jest": "^29.6.0",
+    "eslint": "^8.47.0"
+  }
+}
